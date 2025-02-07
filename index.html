@@ -1,1 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegant Café - Accessible</title>
+    
+    <!-- Quicksand Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- JavaScript -->
+    <script defer src="script.js"></script>
+</head>
+<body>
 
+    <!-- Skip to Content Link -->
+    <a href="#main-content" class="skip-link">Skip to Main Content</a>
+
+    <!-- Navigation -->
+    <nav class="navbar" aria-label="Main Navigation">
+        <a href="#" class="logo">Elegant Café</a>
+        <button class="hamburger" aria-label="Toggle navigation menu">&#9776;</button>
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#menu" class="nav-link">Menu</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        
+        <!-- Home Section -->
+        <section id="home" class="section home" aria-labelledby="home-heading">
+            <div class="content">
+                <h1 id="home-heading">Welcome to Elegant Café</h1>
+                <p>A peaceful space with delightful flavors.</p>
+                <img src="images/cafe.jpg" alt="A cozy café with soft lighting and warm colors" class="responsive-image">
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about" aria-labelledby="about-heading">
+            <div class="content">
+                <h2 id="about-heading">About Us</h2>
+                <p>Elegant Café is a haven for those who appreciate fine coffee, fresh pastries, and a tranquil ambiance.</p>
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section id="menu" class="section menu" aria-labelledby="menu-heading">
+            <div class="content">
+                <h2 id="menu-heading">Our Menu</h2>
+                <p>Explore a selection of artisan coffees, organic teas, and homemade treats.</p>
+            </div>
+        </section>
+        
+    </main>
+
+</body>
+</html>
